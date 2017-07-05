@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: Arial;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+html {
+    height: 100%;
+}
+.login_content{
+    flex: 1;
+    padding: 20px;
+}
+.title_logo {
+    padding-top: 208px;
+    text-align: center;
+}
+
+.login_input {
+    margin-top: 126px;
+    border: 1px solid #38adff;
+    border-radius:8px;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+.login_input_user {
+    text-align: center;
+}
+
+.login_input_password {
+    text-align: center;
+    margin-top: 58px;
+}
+
+.input_user {
+    font-size: 3em;
+    border-style: none;
+    border-bottom: 1px solid #38adff;
+    margin-left: 0.5em;
+    color: #38adff;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+}
+
+.error_mess{
+    color: red;
+    font-size: 2em;
+    padding-top: 0.7em;
+    padding-left: 2em;
+}
+.login_btn{
+    padding-right: 4em;
+    padding-left: 4em;
+    margin-top: 106px;
+}
+.login_btn_denglu{
+    width: 100%;
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #38adff;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #38adff;
+}
+.login_register{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 46px;
+    color: #999999;
+}
+.login_footer{
+    text-align: center;
+    font-size: 2em;
+    color: #999999;
+    padding-bottom: 1em;
+}

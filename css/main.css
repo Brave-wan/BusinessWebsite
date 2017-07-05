@@ -7,8 +7,21 @@ body {
     font-size: 12px;
 }
 
+a {
+    text-decoration: none;
+    color: #656565;
+}
+
 img {
     border: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right
 }
 
 li {
@@ -17,6 +30,8 @@ li {
 
 input, select, textarea {
     outline: none;
+    border: none;
+    background:none;
 }
 
 /*清楚浮动*/
